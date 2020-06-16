@@ -69,5 +69,9 @@ def volume_of_cube(number)
 end
 
 def volume_of_sphere(number)
-    return ((4.0/3.0) * 3.14) * (5 ** 3)
+    return (((4.0/3.0) * 3.14) * (number ** 3)).round(2)
+end
+
+def fahrenheit_to_celsius(degree)
+    return ((degree - 32.0) * (5.0 / 9.0)).round(2)
 end
